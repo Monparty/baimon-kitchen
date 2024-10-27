@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './Navbar'
 import BackToTop from './backToTop'
 import Footer from './Footer'
+import CardMenu from './CardMenu'
 import { Link } from 'react-router-dom'
 
 function App() {
@@ -118,41 +119,14 @@ function App() {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230"><path fill="#fff7ea" fill-opacity="1" d="M0,64L20,74.7C40,85,80,107,120,128C160,149,200,171,240,176C280,181,320,171,360,149.3C400,128,440,96,480,90.7C520,85,560,107,600,128C640,149,680,171,720,165.3C760,160,800,128,840,138.7C880,149,920,203,960,208C1000,213,1040,171,1080,170.7C1120,171,1160,213,1200,197.3C1240,181,1280,107,1320,85.3C1360,64,1400,96,1420,112L1440,128L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path></svg>
             <section className='app__card'>
                 <div className='app__cardContainer'>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp1.webp" />
-                        <button>Detail</button>
-                    </div>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp2.webp" />
-                        <button>Detail</button>
-                    </div>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp3.webp" />
-                        <button>Detail</button>
-                    </div>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp4.webp" />
-                        <button>Detail</button>
-                    </div>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp4.webp" />
-                        <button>Detail</button>
-                    </div>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp3.webp" />
-                        <button>Detail</button>
-                    </div>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp2.webp" />
-                        <button>Detail</button>
-                    </div>
-                    <div className='app__cardItem'>
-                        <img src="../public/images/wp1.webp" />
-                        <button>Detail</button>
-                    </div>
+                    <CardMenu />
+                    <CardMenu />
+                    <CardMenu />
+                    <CardMenu />
+                    <CardMenu />
+                    <CardMenu />
                 </div>
             </section>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 290"><path fill="#efdfcf" fill-opacity="1" d="M0,160L15,170.7C30,181,60,203,90,229.3C120,256,150,288,180,282.7C210,277,240,235,270,197.3C300,160,330,128,360,144C390,160,420,224,450,229.3C480,235,510,181,540,176C570,171,600,213,630,213.3C660,213,690,171,720,165.3C750,160,780,192,810,202.7C840,213,870,203,900,213.3C930,224,960,256,990,250.7C1020,245,1050,203,1080,197.3C1110,192,1140,224,1170,224C1200,224,1230,192,1260,176C1290,160,1320,160,1350,165.3C1380,171,1410,181,1425,186.7L1440,192L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"></path></svg>
             <Footer />
         </div>
     )
